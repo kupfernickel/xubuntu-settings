@@ -58,8 +58,8 @@ echo 'eval "$(rbenv init -)"' >> .zshrc
 
 # Node.js
 # curl https://raw.githubusercontent.com/creationix/nvm/v0.18.0/install.sh | sh
-git clone https://github.com/creationix/nvm.git $HOME/.nvm && git checkout `git describe --addrev=0 --tags`
-source $HOME/.nvm/nvm.sh
+git clone https://github.com/creationix/nvm.git $HOME/.nvm
+sh $HOME/.nvm/install.sh
 
 nvm install v0.10
 
