@@ -63,4 +63,7 @@ sh $HOME/.nvm/install.sh
 
 nvm install v0.10
 
+# Oh-My-Zsh
+# https://github.com/robbyrussell/oh-my-zsh
+curl -L http://install.ohmyz.sh | sh
 
